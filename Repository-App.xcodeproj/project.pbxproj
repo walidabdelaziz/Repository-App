@@ -19,6 +19,8 @@
 		CBEFE0C12A38A0FC00618D97 /* ReposTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEFE0BF2A38A0FC00618D97 /* ReposTVCell.swift */; };
 		CBEFE0C22A38A0FC00618D97 /* ReposTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBEFE0C02A38A0FC00618D97 /* ReposTVCell.xib */; };
 		CBEFE0C42A38A1F900618D97 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEFE0C32A38A1F900618D97 /* Extensions.swift */; };
+		CBEFE0C72A38A3BD00618D97 /* Repositories.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEFE0C62A38A3BD00618D97 /* Repositories.swift */; };
+		CBEFE0CA2A38A45A00618D97 /* RepositoriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEFE0C92A38A45A00618D97 /* RepositoriesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		CBEFE0BF2A38A0FC00618D97 /* ReposTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposTVCell.swift; sourceTree = "<group>"; };
 		CBEFE0C02A38A0FC00618D97 /* ReposTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReposTVCell.xib; sourceTree = "<group>"; };
 		CBEFE0C32A38A1F900618D97 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CBEFE0C62A38A3BD00618D97 /* Repositories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repositories.swift; sourceTree = "<group>"; };
+		CBEFE0C92A38A45A00618D97 /* RepositoriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 				CBEFE09F2A389C0C00618D97 /* AppDelegate.swift */,
 				CBEFE0B92A389EEA00618D97 /* Helpers */,
 				CBEFE0BE2A38A0E100618D97 /* Cells */,
+				CBEFE0C52A38A39D00618D97 /* Models */,
+				CBEFE0C82A38A44200618D97 /* ViewModels */,
 				CBEFE0B32A389DEE00618D97 /* Controllers */,
 				CBEFE0B42A389DF800618D97 /* Storyboards */,
 				CBEFE0A82A389C0D00618D97 /* Assets.xcassets */,
@@ -129,13 +135,29 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+		CBEFE0C52A38A39D00618D97 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CBEFE0C62A38A3BD00618D97 /* Repositories.swift */,
+			);
+			name = Models;
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		CBEFE0C82A38A44200618D97 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CBEFE0C92A38A45A00618D97 /* RepositoriesViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		EF3CA0C02C233EAA992AF028 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				665FD2D0D42AB9802AFC9AEC /* Pods-Repository-App.debug.xcconfig */,
 				631E4C72D3FD3BBB8E9B6755 /* Pods-Repository-App.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,7 +281,9 @@
 				CBEFE0BB2A389F0800618D97 /* Consts.swift in Sources */,
 				CBEFE0BD2A389F4700618D97 /* NetworkManager.swift in Sources */,
 				CBEFE0C12A38A0FC00618D97 /* ReposTVCell.swift in Sources */,
+				CBEFE0CA2A38A45A00618D97 /* RepositoriesViewModel.swift in Sources */,
 				CBEFE0A02A389C0C00618D97 /* AppDelegate.swift in Sources */,
+				CBEFE0C72A38A3BD00618D97 /* Repositories.swift in Sources */,
 				CBEFE0B62A389E8000618D97 /* SplashVC.swift in Sources */,
 				CBEFE0C42A38A1F900618D97 /* Extensions.swift in Sources */,
 			);

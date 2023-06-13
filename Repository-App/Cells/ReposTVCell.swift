@@ -13,6 +13,14 @@ class ReposTVCell: UITableViewCell {
     @IBOutlet weak var titleLbl: UILabel!
     @IBOutlet weak var bgV: UIView!
     
+    var repo: Repos? {
+        didSet {
+            guard let repo = repo else { return }
+            titleLbl.text = repo.name
+            detailsLbl.text = repo.description
+            }
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
