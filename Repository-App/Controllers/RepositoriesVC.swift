@@ -46,7 +46,9 @@ class RepositoriesVC: UIViewController {
         // show loader
         reposViewModel.isLoading.asObservable()
             .bind { (loading) in
-                loading ? Utils.showLoader(self.view) : Utils.hideLoader()
+                DispatchQueue.main.async {
+                    loading ? Utils.showLoader(self.view) : Utils.hideLoader()
+                }
             }.disposed(by: disposeBag)
     }
     
