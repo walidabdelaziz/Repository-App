@@ -13,6 +13,8 @@
 		CBEFE0AC2A389C0E00618D97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBEFE0AA2A389C0E00618D97 /* LaunchScreen.storyboard */; };
 		CBEFE0B62A389E8000618D97 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEFE0B52A389E8000618D97 /* SplashVC.swift */; };
 		CBEFE0B82A389EAF00618D97 /* RepositoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEFE0B72A389EAF00618D97 /* RepositoriesVC.swift */; };
+		CBEFE0BB2A389F0800618D97 /* Consts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEFE0BA2A389F0800618D97 /* Consts.swift */; };
+		CBEFE0BD2A389F4700618D97 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEFE0BC2A389F4700618D97 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CBEFE0AD2A389C0E00618D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBEFE0B52A389E8000618D97 /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
 		CBEFE0B72A389EAF00618D97 /* RepositoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesVC.swift; sourceTree = "<group>"; };
+		CBEFE0BA2A389F0800618D97 /* Consts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consts.swift; sourceTree = "<group>"; };
+		CBEFE0BC2A389F4700618D97 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				CBEFE09F2A389C0C00618D97 /* AppDelegate.swift */,
+				CBEFE0B92A389EEA00618D97 /* Helpers */,
 				CBEFE0B32A389DEE00618D97 /* Controllers */,
 				CBEFE0B42A389DF800618D97 /* Storyboards */,
 				CBEFE0A82A389C0D00618D97 /* Assets.xcassets */,
@@ -81,6 +86,15 @@
 				CBEFE0A52A389C0C00618D97 /* Main.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		CBEFE0B92A389EEA00618D97 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CBEFE0BA2A389F0800618D97 /* Consts.swift */,
+				CBEFE0BC2A389F4700618D97 /* NetworkManager.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +169,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBEFE0B82A389EAF00618D97 /* RepositoriesVC.swift in Sources */,
+				CBEFE0BB2A389F0800618D97 /* Consts.swift in Sources */,
+				CBEFE0BD2A389F4700618D97 /* NetworkManager.swift in Sources */,
 				CBEFE0A02A389C0C00618D97 /* AppDelegate.swift in Sources */,
 				CBEFE0B62A389E8000618D97 /* SplashVC.swift in Sources */,
 			);
