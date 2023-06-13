@@ -15,6 +15,9 @@
 		CBEFE0B82A389EAF00618D97 /* RepositoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEFE0B72A389EAF00618D97 /* RepositoriesVC.swift */; };
 		CBEFE0BB2A389F0800618D97 /* Consts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEFE0BA2A389F0800618D97 /* Consts.swift */; };
 		CBEFE0BD2A389F4700618D97 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEFE0BC2A389F4700618D97 /* NetworkManager.swift */; };
+		CBEFE0C12A38A0FC00618D97 /* ReposTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEFE0BF2A38A0FC00618D97 /* ReposTVCell.swift */; };
+		CBEFE0C22A38A0FC00618D97 /* ReposTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBEFE0C02A38A0FC00618D97 /* ReposTVCell.xib */; };
+		CBEFE0C42A38A1F900618D97 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEFE0C32A38A1F900618D97 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		CBEFE0B72A389EAF00618D97 /* RepositoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesVC.swift; sourceTree = "<group>"; };
 		CBEFE0BA2A389F0800618D97 /* Consts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consts.swift; sourceTree = "<group>"; };
 		CBEFE0BC2A389F4700618D97 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		CBEFE0BF2A38A0FC00618D97 /* ReposTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposTVCell.swift; sourceTree = "<group>"; };
+		CBEFE0C02A38A0FC00618D97 /* ReposTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReposTVCell.xib; sourceTree = "<group>"; };
+		CBEFE0C32A38A1F900618D97 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,7 @@
 			children = (
 				CBEFE09F2A389C0C00618D97 /* AppDelegate.swift */,
 				CBEFE0B92A389EEA00618D97 /* Helpers */,
+				CBEFE0BE2A38A0E100618D97 /* Cells */,
 				CBEFE0B32A389DEE00618D97 /* Controllers */,
 				CBEFE0B42A389DF800618D97 /* Storyboards */,
 				CBEFE0A82A389C0D00618D97 /* Assets.xcassets */,
@@ -93,8 +100,18 @@
 			children = (
 				CBEFE0BA2A389F0800618D97 /* Consts.swift */,
 				CBEFE0BC2A389F4700618D97 /* NetworkManager.swift */,
+				CBEFE0C32A38A1F900618D97 /* Extensions.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		CBEFE0BE2A38A0E100618D97 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CBEFE0BF2A38A0FC00618D97 /* ReposTVCell.swift */,
+				CBEFE0C02A38A0FC00618D97 /* ReposTVCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +175,7 @@
 				CBEFE0AC2A389C0E00618D97 /* LaunchScreen.storyboard in Resources */,
 				CBEFE0A92A389C0D00618D97 /* Assets.xcassets in Resources */,
 				CBEFE0A72A389C0C00618D97 /* Main.storyboard in Resources */,
+				CBEFE0C22A38A0FC00618D97 /* ReposTVCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,8 +189,10 @@
 				CBEFE0B82A389EAF00618D97 /* RepositoriesVC.swift in Sources */,
 				CBEFE0BB2A389F0800618D97 /* Consts.swift in Sources */,
 				CBEFE0BD2A389F4700618D97 /* NetworkManager.swift in Sources */,
+				CBEFE0C12A38A0FC00618D97 /* ReposTVCell.swift in Sources */,
 				CBEFE0A02A389C0C00618D97 /* AppDelegate.swift in Sources */,
 				CBEFE0B62A389E8000618D97 /* SplashVC.swift in Sources */,
+				CBEFE0C42A38A1F900618D97 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
