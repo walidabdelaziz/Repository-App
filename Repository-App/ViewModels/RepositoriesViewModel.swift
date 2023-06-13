@@ -16,7 +16,6 @@ class RepositoriesViewModel {
     let isSuccess = BehaviorRelay<Bool>(value: false)
     let isLoading = BehaviorRelay<Bool>(value: false)
     let error = PublishSubject<Error>()
-    let loadNextPageTrigger = PublishSubject<Void>()
 
     func getRepos() {
         guard !isLoading.value else { return }
