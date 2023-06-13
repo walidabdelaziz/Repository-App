@@ -30,9 +30,9 @@ class RepositoriesVC: UIViewController {
     func bindViewModel(){
         reposViewModel.repos
             .bind(to: reposTV.rx.items(cellIdentifier: "ReposTVCell", cellType: ReposTVCell.self)) { row, repo, cell in
+                cell.selectionStyle = .none
                 cell.repo = repo
-            }
-            .disposed(by: disposeBag)
+            }.disposed(by: disposeBag)
         
         // show error
         reposViewModel.error
@@ -43,7 +43,11 @@ class RepositoriesVC: UIViewController {
                 self?.present(alert, animated: true, completion: nil)
             }).disposed(by: disposeBag)
         
-        
+        // show loader
+        reposViewModel.isLoading.asObservable()
+            .bind { (loading) in
+                loading ? Utils.showLoader(self.view) : Utils.hideLoader()
+            }.disposed(by: disposeBag)
     }
     
 }

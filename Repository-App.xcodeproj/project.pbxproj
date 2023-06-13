@@ -21,6 +21,7 @@
 		CBEFE0C42A38A1F900618D97 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEFE0C32A38A1F900618D97 /* Extensions.swift */; };
 		CBEFE0C72A38A3BD00618D97 /* Repositories.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEFE0C62A38A3BD00618D97 /* Repositories.swift */; };
 		CBEFE0CA2A38A45A00618D97 /* RepositoriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEFE0C92A38A45A00618D97 /* RepositoriesViewModel.swift */; };
+		CBEFE0CC2A38A5BF00618D97 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEFE0CB2A38A5BF00618D97 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		CBEFE0C32A38A1F900618D97 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		CBEFE0C62A38A3BD00618D97 /* Repositories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repositories.swift; sourceTree = "<group>"; };
 		CBEFE0C92A38A45A00618D97 /* RepositoriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesViewModel.swift; sourceTree = "<group>"; };
+		CBEFE0CB2A38A5BF00618D97 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 			children = (
 				CBEFE0BA2A389F0800618D97 /* Consts.swift */,
 				CBEFE0BC2A389F4700618D97 /* NetworkManager.swift */,
+				CBEFE0CB2A38A5BF00618D97 /* Utils.swift */,
 				CBEFE0C32A38A1F900618D97 /* Extensions.swift */,
 			);
 			path = Helpers;
@@ -282,6 +285,7 @@
 				CBEFE0BD2A389F4700618D97 /* NetworkManager.swift in Sources */,
 				CBEFE0C12A38A0FC00618D97 /* ReposTVCell.swift in Sources */,
 				CBEFE0CA2A38A45A00618D97 /* RepositoriesViewModel.swift in Sources */,
+				CBEFE0CC2A38A5BF00618D97 /* Utils.swift in Sources */,
 				CBEFE0A02A389C0C00618D97 /* AppDelegate.swift in Sources */,
 				CBEFE0C72A38A3BD00618D97 /* Repositories.swift in Sources */,
 				CBEFE0B62A389E8000618D97 /* SplashVC.swift in Sources */,
