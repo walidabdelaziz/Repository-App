@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		CBEFE0A02A389C0C00618D97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEFE09F2A389C0C00618D97 /* AppDelegate.swift */; };
-		CBEFE0A42A389C0C00618D97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEFE0A32A389C0C00618D97 /* ViewController.swift */; };
 		CBEFE0A72A389C0C00618D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBEFE0A52A389C0C00618D97 /* Main.storyboard */; };
 		CBEFE0A92A389C0D00618D97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBEFE0A82A389C0D00618D97 /* Assets.xcassets */; };
 		CBEFE0AC2A389C0E00618D97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBEFE0AA2A389C0E00618D97 /* LaunchScreen.storyboard */; };
+		CBEFE0B62A389E8000618D97 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEFE0B52A389E8000618D97 /* SplashVC.swift */; };
+		CBEFE0B82A389EAF00618D97 /* RepositoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEFE0B72A389EAF00618D97 /* RepositoriesVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CBEFE09C2A389C0C00618D97 /* Repository-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Repository-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBEFE09F2A389C0C00618D97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CBEFE0A32A389C0C00618D97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CBEFE0A62A389C0C00618D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBEFE0A82A389C0D00618D97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBEFE0AB2A389C0E00618D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBEFE0AD2A389C0E00618D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBEFE0B52A389E8000618D97 /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		CBEFE0B72A389EAF00618D97 /* RepositoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +57,30 @@
 			isa = PBXGroup;
 			children = (
 				CBEFE09F2A389C0C00618D97 /* AppDelegate.swift */,
-				CBEFE0A32A389C0C00618D97 /* ViewController.swift */,
-				CBEFE0A52A389C0C00618D97 /* Main.storyboard */,
+				CBEFE0B32A389DEE00618D97 /* Controllers */,
+				CBEFE0B42A389DF800618D97 /* Storyboards */,
 				CBEFE0A82A389C0D00618D97 /* Assets.xcassets */,
 				CBEFE0AA2A389C0E00618D97 /* LaunchScreen.storyboard */,
 				CBEFE0AD2A389C0E00618D97 /* Info.plist */,
 			);
 			path = "Repository-App";
+			sourceTree = "<group>";
+		};
+		CBEFE0B32A389DEE00618D97 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CBEFE0B52A389E8000618D97 /* SplashVC.swift */,
+				CBEFE0B72A389EAF00618D97 /* RepositoriesVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CBEFE0B42A389DF800618D97 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CBEFE0A52A389C0C00618D97 /* Main.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +154,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBEFE0A42A389C0C00618D97 /* ViewController.swift in Sources */,
+				CBEFE0B82A389EAF00618D97 /* RepositoriesVC.swift in Sources */,
 				CBEFE0A02A389C0C00618D97 /* AppDelegate.swift in Sources */,
+				CBEFE0B62A389E8000618D97 /* SplashVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
